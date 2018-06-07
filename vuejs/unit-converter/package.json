@@ -1,0 +1,11 @@
+{
+  "name": "unit-converter",
+  "version": "0.1.0",
+  "description": "Single application to convert units",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vinicius Cainelli",
+  "license": "ISC"
+}
