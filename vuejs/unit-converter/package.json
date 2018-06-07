@@ -1,11 +1,40 @@
 {
-  "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "vue": "^2.5.16"
+  "name": "unit-converterr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "paths": {
+    "src": {
+      "css": "./src/css/"
+    },
+    "dist": {
+      "base": "./dist/",
+      "css": "./dist/css/"
+    },
+    "config": {
+      "tailwind": "./tailwind.js"
+    }
   },
   "devDependencies": {
-    "gulp-postcss": "^7.0.1",
-    "tailwindcss": "^0.5.3"
-  }
+    "autoprefixer": "^8.4.1",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "tailwindcss": "^0.4.0",
+    "gulp-purgecss": "^0.15.0",
+    "vue": "^2.5.16"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp serve",
+    "build": "gulp css"
+  },
+  "keywords": [
+    "tailwind",
+    "CSS",
+    "converter",
+    "gulp"
+  ],
+  "author": "vicainelli",
+  "license": "ISC"
 }
